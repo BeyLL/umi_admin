@@ -1,0 +1,40 @@
+.siderContainer{
+    width: 100%;
+     height: 100%;
+     overflow:hidden auto;
+
+    /*滚动条样式*/
+    &::-webkit-scrollbar {
+        width: 6px;    
+        /*height: 4px;*/
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        background: rgba(0,0,0,0.2);
+    }
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        border-radius: 5;
+        background: rgba(0,0,0,0.1);
+
+    }
+
+
+    .signIcon{
+        margin-right:10px;
+        color:#5a5d5f;
+    }
+
+    
+
+    :global{
+        .icon-xitongguanli{
+            font-size:18px;
+        }
+
+        .icon-beianxitongbaobiao{
+            font-size:19px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import '~@/common.less';
+.searchStyle {
+    background: @bg;
+    padding: 24px 20px 0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    .formItem {
+        :global {
+            .ant-calendar-picker {
+                width: 100%
+            }
+        }
+    }
+    .btnLeft {
+        margin-right: @marinLeft
+    }
+}
+
+.userTable {
+    :global {
+        .ant-table-body {
+            overflow-y: auto !important;
+        }
+    }
+}

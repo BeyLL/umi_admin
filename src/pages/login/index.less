@@ -1,0 +1,45 @@
+.container{
+    height:100%;
+    background: url(../../assets/images/login_bj.jpg);
+    background-size:100% 100%;
+
+    .content_center{
+        position: absolute;
+        left:50%;
+        top:50%;
+        padding:56px 20px 40px;
+        width:300px;
+        height:320px;
+        transform: translate(-50%,-50%);
+        background:#fff;
+    }
+
+    .formLogin{
+        :global{
+            .ant-form-item{
+                margin-bottom:10px;
+            }
+            .has-error .ant-form-explain, .has-error .ant-form-split{
+                text-align: left;
+            }
+        }
+    }
+
+    .checkBtn{
+        :global{
+            .ant-form-item-control{
+                text-align: left;
+            }
+        }
+    }
+
+
+    .loginBtn{
+        display: flex;
+        justify-content: center;
+    }
+   
+    .subFormStyle{
+         width:80%
+    }
+}
